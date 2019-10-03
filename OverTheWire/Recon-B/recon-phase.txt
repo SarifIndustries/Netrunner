@@ -1,0 +1,38 @@
+Note:
+- Check shell commands with "man"
+- Shell built-ins check with "help"
+
+::: Area 0 :::
++---[ECDSA 256]---+
+|         ...   +o|
+|        . o ..+oo|
+|         + +.o.E=|
+|        o + +o=.=|
+|       .So.=.B++ |
+|        ..+.*=*..|
+|           ..==o |
+|            o. oo|
+|            .oooo|
++----[SHA256]-----+
+IP: 176.9.9.172
+Location: Germany
+Server: bandit.labs.overthewire.org
+Port: 2220
+username: bandit0
+password: bandit0
+
+[x] research (+w): SSH (Secure Shell)
+[x] run server 
+
+Note:
+- Flag is password to bandit[N] (next area)
+Data: file readme in home directory
+Flag: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
+::: Area 1 :::
+Data: file with name "-"
+Flag: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+
+::: Area 2 :::
+Data: file with spaces in name
+Flag: 
