@@ -42,5 +42,19 @@ Data: hidden file in some directory
 Flag: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
 ::: Area 4 :::
-Data: in difficult to cat file
-Flag: 
+Data: in some file
+Flag: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+::: Area 5 :::
+Data: file has properties:
+-human-readable
+-1033 bytes in size
+-not executable
+Flag: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+::: Area 6 :::
+Data: properties:
+-owned by user bandit7
+-owned by group bandit6
+-33 bytes in size
+Flag: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
