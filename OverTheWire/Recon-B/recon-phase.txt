@@ -58,3 +58,30 @@ Data: properties:
 -owned by group bandit6
 -33 bytes in size
 Flag: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+::: Area 7 :::
+Data: data.txt, next to word millionth
+Check progs: grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
+Flag: cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+::: Area 8 :::
+Data: data.txt // line occurs only once
+Flag: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+::: Area 9 :::
+Data: data.txt // Begins with several '='
+Flag: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+::: Area 10 :::
+Data: data.txt // Base 64 encoded
+Flag: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+::: Area 11 :::
+Data: data.txt // Rot13 (Caesar) encoded
+Flag: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+==CreateTables==
+
+::: Area 12 :::
+Data: data.txt // compressed hexdump several times
+Flag: 
