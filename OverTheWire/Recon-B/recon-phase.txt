@@ -80,8 +80,24 @@ Flag: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
 Data: data.txt // Rot13 (Caesar) encoded
 Flag: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 
-==CreateTables==
+==CreateTables== [x]
 
 ::: Area 12 :::
 Data: data.txt // compressed hexdump several times
-Flag: 
+Note: use tmp folder
+Flag: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+::: Area 13 :::
+Data: /etc/bandit_pass/bandit14 // user: bandit14
+Note: private SSH key somewhere, localhost refers to self
+Flag: 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+
+::: Area 14 :::
+Data: submit pass to localhost port 30000
+Flag: BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+==CreateTables== [ ]
+
+::: Area 15 :::
+Data:
+Note: research ssl/tsl
