@@ -96,8 +96,18 @@ Flag: 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
 Data: submit pass to localhost port 30000
 Flag: BfMYroe26WYalil77FoDi9qh59eK5xNr
 
-==CreateTables== [ ]
+==CreateTables== [ ] + NMAP
 
 ::: Area 15 :::
-Data:
+Data: perform tls handshake with port 30001 and send current password
+Note: Getting “HEARTBEATING” and “Read R BLOCK”?
+Use -ign_eof and read the “CONNECTED COMMANDS”
+section in the manpage. Next to ‘R’ and ‘Q’,
+the ‘B’ command also works in this version of that command…
 Note: research ssl/tsl
+Flag: cluFn7wTiGryunymYOu4RcffSxQluehd
+
+::: Area 16 :::
+Data: a port on localhost in the range 31000 to 32000 // TLS
+Note: use port scanner nmap
+Flag: 
