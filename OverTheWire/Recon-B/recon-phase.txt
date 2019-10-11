@@ -109,5 +109,7 @@ Flag: cluFn7wTiGryunymYOu4RcffSxQluehd
 
 ::: Area 16 :::
 Data: a port on localhost in the range 31000 to 32000 // TLS
+Subimt current pswd into this port.
 Note: use port scanner nmap
-Flag: 
+Location: /tmp/tmp.eQ982BHKVv
+Flag: xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
