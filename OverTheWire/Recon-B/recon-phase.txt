@@ -113,3 +113,8 @@ Subimt current pswd into this port.
 Note: use port scanner nmap
 Location: /tmp/tmp.eQ982BHKVv
 Flag: xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
+
+::: Area 17 :::
+Data: file password.new, only line that changed from .old
+Note: use diff program
+Flag: kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
