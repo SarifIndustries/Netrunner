@@ -118,3 +118,35 @@ Flag: xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
 Data: file password.new, only line that changed from .old
 Note: use diff program
 Flag: kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+
+::: Area 18 :::
+Data: in home dir file - readme
+Note: .bashrc was modified to autologout
+// Check man ssh to disable scripts
+// Check net .bashrc
+// Check different shell
+Flag: IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
+::: Area 19 :::
+Data: /etc/bandit-pass
+Note: need use setuid binary
+// Check setuid
+Flag: GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+[X] research netcat (nc) to act like network daemon
+[ ] write nc Field manual entry
+[ ] write Unix job control (bg, fg, jobs, ctrl+z)
+
+::: Area 20 :::
+Data: setuid binary, connects to port
+Note: establish netcat as network daemon
+Flag: gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
+::: Area 21 :::
+Data: look for special program in cron tables
+Note: look in /etc/cron.d
+// Check: cron, crontab, crontab(5)
+Interesting: These tasks are disabled if anacron is installed
+	(except for the hourly task) to prevent conflicts
+    between both daemons.
+Flag: Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
